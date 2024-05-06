@@ -1,0 +1,145 @@
+body {
+    background-color: #f3f5f7;
+}
+
+.hero-section {
+    height: 90vh;
+    width: calc(100vw-48px);
+    padding: 64px 24px 24px;
+}
+
+.hero-container {
+    width: 1350px;
+    font-size: 61px;
+    font-family: Manrope;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.hero-container:nth-child(2) {
+    width: calc(50% - 44px);
+    position: absolute;
+    bottom: 24px;
+}
+
+
+.project-section {
+    width: calc(100vw-48px);
+    height: fit-content;
+    padding: 48px 24px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.project-container {
+    width: calc(50% - 12px);
+    height: fit-content;
+    left: 24px;
+    top: 1091px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+}
+
+.project-container:nth-child(2) {
+    width: calc(41% - 2px);
+    height: 546px;
+    right: 0px;
+    top: 1091px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+}
+
+.project-section-2 {
+    width: calc(100vw-48px);
+    height: fit-content;
+    padding: 24px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.project-container-2 {
+    width: calc(40% + 11px);
+    height: 546px;
+    right: 0px;
+    top: 1091px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+}
+
+.project-container-2:nth-child(2) {
+    width: calc(50% - 12px);
+    height: 880px;
+    left: 24px;
+    top: 1091px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+}
+
+
+.team-section {
+    width: calc(100vw-48px);
+    height: 810px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+    padding: 96px 24px;
+}
+
+.team-section img {
+    align-self: stretch;
+    width: calc(50% - 12px);
+    object-fit: cover;
+    height: auto;
+}
+
+.om-oss-tekst {
+    margin: 0px;
+    position: sticky;
+    top: 300px;
+    width: calc(40% + 10px);
+}
+
+canvas {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -10;
+    align-self: center;
+}
+
+.project-container a:hover, .project-container-2 a:hover {
+    text-decoration: underline;
+}
+
+
+.project-container img, .project-container-2 img {
+    transition: transform 0.3s ease; /* Adds smooth transition effect */
+    width: 100%;
+    height: auto;
+    margin-bottom: -16px;
+}
+
+.project-container img:hover, .project-container-2 img:hover {
+    transform: translateY(-6px);
+}
+
+.les-mer:hover {
+    text-decoration: underline;
+}

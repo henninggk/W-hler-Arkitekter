@@ -1,0 +1,9 @@
+.canvas {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+.slider {
+    background-color: red;
+}

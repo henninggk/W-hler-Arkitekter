@@ -1,0 +1,70 @@
+body {
+    background-color: #f3f5f7;
+    padding-top: 48px;
+}
+
+.kontakt-section {
+    width: 100%; 
+    height: calc(90vh - 48px); 
+    position: relative; 
+    background: #F3F5F7;
+    padding: 24px 24px 72px 24px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 66%; 
+    position: relative; 
+}
+
+.kontakt-container {
+    height: auto;
+    width: 100%;  
+    position: relative; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 48px; 
+    display: inline-flex;
+}
+
+.bestilling {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    height: fit-content;
+    gap: 12px
+}
+
+.bestilling h4, .daglig-leder h4, .søknad h4 {
+    width: calc(50% - 24px);
+    margin: 0px;
+}
+
+.daglig-leder {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    gap: 12px
+}
+
+.søknad {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    gap: 12px
+}
+
+.kontakt-container a {
+    color: rgb(20, 20, 20)!important;
+}
+
+.kontakt-container a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

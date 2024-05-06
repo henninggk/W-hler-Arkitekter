@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(200, 218, 218);
+    padding-top: 24px;
+}
+
+.header {
+    width: calc(100% - 48px);
+    justify-content: flex-start; 
+    align-items: flex-start;  
+    flex-direction: column;
+    display: inline-flex;
+    padding: 48px 24px 24px 24px;
+    gap: 24px;
+}
+
+.ingress {
+    width: 40vw;
+}
+
+.tags {
+    width: calc(50% - 12px);
+    height: 62px; 
+    justify-content: space-between; 
+    align-items: flex-start;  
+    display: flex;
+}
+
+.tag {
+    width: auto;
+}
+
+.info-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.info-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.image-section-top {
+    width: calc(100% - 48px);
+    padding: 24px;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section-top img:nth-child(1) {
+    width: 100%;
+    height: 90vh; 
+    object-fit: cover;
+    padding-bottom: 96px;
+    padding-top: 48px;
+}
+
+.image-section-top img:nth-child(2) {
+    width: calc(50% - 12px);
+    height: 775px; 
+    position: relative;
+    top: 96px;
+    object-fit: cover;
+}
+
+.image-section-top img:nth-child(3) {
+    width: calc(50% - 12px);
+    height: 775px; 
+    position: relative;
+    top: 48px;
+    object-fit: cover;
+    right: 0px;
+    align-self: flex-end;
+    padding-bottom: 24px;
+}
+
+.image-1 {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Legger til en overgangseffekt */
+}
+
+.ingress-2 {
+    width: 64%;
+    padding: 24px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section-middle {
+    width: calc(100% - 48px);
+    padding: 24px;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.image-section-middle img:nth-child(1) {
+    width: 100%; 
+    height: 802px; 
+}
+
+.image-section-middle-right {
+    width: calc(50% - 12px);
+    align-self: flex-end;
+    padding-bottom: 96px;
+}
+
+.image-section-middle-left {
+    position: absolute;
+    top: calc(20% + 802px);
+    width: calc(50% - 36px);
+    align-self: flex-start;
+}
+
+

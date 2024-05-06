@@ -1,0 +1,75 @@
+body {
+    background-color: #f3f5f7;
+    padding-top: 48px;
+}
+
+p {
+    height: 24px;
+}
+
+.ansatte-section {
+    width: calc(100vw - 64px); 
+    height: fit-content; 
+    position: relative; 
+    background: #F3F5F7;
+    padding: 24px 24px 96px 24px;
+    
+}
+
+.header {
+    width: 1350px; 
+    position: relative; 
+}
+
+.ansatte-container {
+    width: 100%; 
+    position: relative; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 700px);
+    grid-column-gap: 24px;
+    grid-row-gap: 64px;
+    height: auto;
+    padding-top: 24px;
+}
+
+.ansatt {
+    width: 100%; 
+    height: auto; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    align-self: stretch;
+    border: none;
+    margin: none;
+    display: block;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.ansatt.visible {
+    opacity: 1;
+}
+
+.ansatt-bilde {
+    width: 100%;
+    height: 78%;
+    padding-bottom: 12px;
+}
+
+.ansatt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-self: stretch;
+    flex: 1 1 0;
+    filter: saturate(90%);
+}
+
+.ansatt p:last-child:hover, .ansatt p:nth-last-child(2):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
