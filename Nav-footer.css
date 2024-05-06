@@ -100,6 +100,7 @@ a {
     display: flex;
     z-index: 10;
     mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
     transition: transform 0.3s ease;
 }
   
@@ -173,6 +174,7 @@ a {
 
 .menu-item a {
     mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
     justify-content: flex-start;
     font-size: 20px;
 }
