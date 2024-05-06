@@ -6,6 +6,8 @@
 
 body {
     font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
     line-height: 1.6;
     overflow-x: clip;
     height: fit-content;
