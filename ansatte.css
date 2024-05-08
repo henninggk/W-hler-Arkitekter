@@ -28,7 +28,7 @@ p {
     align-items: flex-start; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 700px);
+    grid-template-rows: repeat(3, minmax(0, 75vh));
     grid-column-gap: 24px;
     grid-row-gap: 64px;
     height: auto;
@@ -47,6 +47,7 @@ p {
     display: block;
     opacity: 0;
     transition: opacity 1s ease;
+    max-height: 80vh;
 }
 
 .ansatt.visible {
