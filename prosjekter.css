@@ -19,7 +19,7 @@ body {
 .prosjekt-container { 
     display: grid;
     grid-template-columns: calc(50% - 12px) calc(50% - 12px);
-    grid-template-rows: repeat(4, 600px);
+    grid-template-rows: repeat(4, 60vh);
     grid-column-gap: 24px;
     grid-row-gap: 144px;
     width: 100%;
