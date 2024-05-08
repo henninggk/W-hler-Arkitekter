@@ -1,5 +1,6 @@
 body {
     background-color: #f3f5f7;
+    font-size: 16px;
 }
 
 .hero-section {
@@ -36,8 +37,6 @@ body {
 .project-container {
     width: calc(50% - 12px);
     height: fit-content;
-    left: 24px;
-    top: 1091px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -48,8 +47,6 @@ body {
 .project-container:nth-child(2) {
     width: calc(41% - 2px);
     height: 546px;
-    right: 0px;
-    top: 1091px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -68,9 +65,7 @@ body {
 
 .project-container-2 {
     width: calc(40% + 11px);
-    height: 546px;
-    right: 0px;
-    top: 1091px;
+    height: auto;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -80,9 +75,7 @@ body {
 
 .project-container-2:nth-child(2) {
     width: calc(50% - 12px);
-    height: 880px;
-    left: 24px;
-    top: 1091px;
+    height: auto;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
