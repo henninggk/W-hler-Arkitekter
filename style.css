@@ -111,7 +111,7 @@ body {
 .om-oss-tekst {
     margin: 0px;
     position: sticky;
-    top: 300px;
+    top: 20%;
     width: calc(40% + 10px);
 }
 
