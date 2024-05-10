@@ -29,7 +29,7 @@ function draw() {
   
   let g = slider.value();
   
-  fill(0);
+  fill(20);
   noStroke();
   rectMode(CENTER)
   translate(width/2, height/2)
