@@ -18,7 +18,7 @@ function draw() {
   clear();
   for (let i = 0; i < antall; i++){
     rect(i * avstand * scaleFactor, 10 * scaleFactor, 35 * scaleFactor, 35 * scaleFactor);
-    rotate(radians(10 * mouseX / 10));
+    rotate(radians(10 * mouseX / 50));
   }
   pop();
 }
